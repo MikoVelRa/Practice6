@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+    <title>Ejercicios Open Class VI</title>
+  </head>
+  <body>
+    <h1>Ejercicios Open Class VI</h1>
+
+    <div class="exc1">
+      <p>
+        <strong>Ejercicio 1:</strong> Ocultar una sección de contenido con texto
+        y aparecerlo por medio de un botón creado por medio de un enlace.
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="half1">
+        <p id="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+          repellendus ipsam impedit reprehenderit totam aspernatur facere,
+          assumenda pariatur minus, odit consequatur quisquam dicta beatae
+          aliquid, molestias dolorum corrupti suscipit numquam.
+        </p>
+      </div>
+      <div class="half2">
+        <a
+          href="javascript:document.getElementById('texto').style.display='block';void0"
+          ><button>Aparecer texto</button></a
+        >
+      </div>
+    </div>
+
+    <div class="exc1">
+      <p>
+        <strong>Ejercicio 2:</strong> Realizar la suma de tres materias y sacar
+        el promedio utilizando formularios de éstas debes pedir lo siguiente:<br />
+        Nombre del alumno, edad, semestre, cálculo, programación 1, páginas
+        web.<br /><br />
+        <button onclick="sacarPromedio();">Ejecutar ejercicio</button>
+      </p>
+    </div>
+
+    <div class="exc1">
+      <p>
+        <strong>Ejercicio 3:</strong> Mostrar con formato css el resultado que
+        se vea bonito, este formato de resultado debe contener toda la
+        información anterior; el promedio y si obtuvo calificación del promedio
+        aprobatoria.<br /><br />
+      </p>
+
+      <div class="row">
+        <div class="half11">
+          <table id="datos">
+            <tr>
+              <th>Nombre</th>
+              <th>Edad</th>
+              <th>Semestre</th>
+              <th>Cálculo</th>
+              <th>Programación 1</th>
+              <th>Páginas Web</th>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="half22" id="half22">
+          <h5 id="promedio1">Promedio final:</h5>
+          <h1 id="promedio">
+            
+          </h1>
+          <h5 id="status"></h5>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body, h1, button{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+div, table{
+    border: solid 2px black;
+    margin: 10px;
+}
+
+.row{
+    overflow: hidden;
+}
+
+.half1{
+    float: left;
+    width: 50%;
+}
+
+.half11{
+    float: left;
+    width: 65%;
+    border: none;
+}
+
+.half1>p{
+    display: none;
+}
+
+.half2{
+    float: right;
+    width: 25%;
+    border: none;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.half22{
+    float: right;
+    width: 15%;
+    border: none;
+    margin-right: 125px;
+    margin-top: 25px;
+    border: solid 2px black;
+}
+
+.row>.half2>a>button, .exc1>p>button{
+    border: none;
+    background:none;
+    background-color: #009432;
+    padding: 10px;
+    color: #fff;
+}
+
+tr, th, td{
+    margin: 10px;
+    border: thick solid black;
+    border-collapse: separate;
+    border-spacing: 3px;
+    border-width: 2px;
+    padding: 15px;
+}
